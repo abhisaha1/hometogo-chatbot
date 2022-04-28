@@ -12,13 +12,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <AppShell padding="md" header={<Header />} footer={<Footer />}>
-        <main>
-          <Stack>
-            <span className='text-3xl font-bold underline'>content</span>
-            <Button>something</Button>
-          </Stack>
-        </main>
+      <AppShell padding="md" fixed header={<Header />} footer={<Footer />}>
+        <Stack>
+          <span className='text-3xl font-bold underline'>content</span>
+          <Button>something</Button>
+        </Stack>
       </AppShell>
     </>
   )
